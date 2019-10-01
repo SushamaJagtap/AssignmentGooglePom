@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.google.util.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.google.testcases.Google_03_GooglePlusTest"/>
+      <class name="com.google.testcases.Google_03_DriveTest"/>
+      <class name="com.google.testcases.Google_03_NewsTest"/>
+      <class name="com.google.testcases.Google_04_MapSignInTest"/>
+      <class name="com.google.testcases.Google_04_DriveSignInTest"/>
+      <class name="com.google.testcases.Google_20_VerifyGmailSignOutTest"/>
+      <class name="com.google.testcases.Google_04_AccountSignInTest"/>
+      <class name="com.google.testcases.Google_14_VerifyGmailSendTest"/>
+      <class name="com.google.testcases.Google_03_MyAccountTest"/>
+      <class name="com.google.testcases.Goggle_03_CalenderTest"/>
+      <class name="com.google.testcases.Google_13_GmailComposeVerifyTest"/>
+      <class name="com.google.testcases.Google_08_ProductWebTest"/>
+      <class name="com.google.testcases.Google_03_TranslateTest"/>
+      <class name="com.google.testcases.Google_16_GmailAttachmentTest"/>
+      <class name="com.google.testcases.Google_07_VerifySearchTest"/>
+      <class name="com.google.testcases.Google04_PlayStoreSignInTest"/>
+      <class name="com.google.testcases.Google_02_Test"/>
+      <class name="com.google.testcases.Google_03_SearchTest"/>
+      <class name="com.google.testcases.Goggle_03_YouTubeTest"/>
+      <class name="com.google.testcases.Google_03_GmailTest"/>
+      <class name="com.google.testcases.Google_15_VerifySearchOperationTest"/>
+      <class name="com.google.testcases.Google_01_Test"/>
+      <class name="com.google.testcases.Google_11_VerifyStarMailTest"/>
+      <class name="com.google.testcases.Google_03_PhotosTest"/>
+      <class name="com.google.testcases.Google_06_Test"/>
+      <class name="com.google.testcases.Google_17_VerifyGmailSettingTest"/>
+      <class name="com.google.testcases.Google_10_GmailVerifyTest"/>
+      <class name="com.google.testcases.Google_04_YoutubeSignInTest"/>
+      <class name="com.google.testcases.Google_04_CalenderSignInTest"/>
+      <class name="com.google.testcases.Google_19_VerifyGmailMovedTest"/>
+      <class name="com.google.testcases.Google_05_HindiTest"/>
+      <class name="com.google.testcases.Google_03_MapTest"/>
+      <class name="com.google.testcases.Google_18_VerifyGmailNewLabelTest"/>
+      <class name="com.google.testcases.Google_09_GmailAccountVerifyTest"/>
+      <class name="com.google.testcases.Google_12_VerifyUnreadTest"/>
+      <class name="com.google.testcases.Google_04_GmailSignInTest"/>
+      <class name="com.google.testcases.Google_03_PlayStoreTest"/>
+      <class name="com.google.testcases.Google_12_VerifyReadMailTest"/>
+      <class name="com.google.testcases.Google_04_NewsSignInTest"/>
+      <class name="com.google.util.TestMail"/>
+      <class name="com.google.util.AppZip"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.google.testcases.Google_02_Test">
+        <methods>
+          <include name="checkGooglePlus"/>
+          <include name="checkNews"/>
+          <include name="checkAccount"/>
+          <include name="checkSearchbtn"/>
+          <include name="checkGmail"/>
+          <include name="checkPhotos"/>
+          <include name="checkDrive"/>
+          <include name="checkPlaystore"/>
+          <include name="checkMap"/>
+          <include name="checkYoutube"/>
+          <include name="checkTranslate"/>
+          <include name="checkCalender"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_02_Test -->
+      <class name="com.google.testcases.Google_17_VerifyGmailSettingTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_17_VerifyGmailSettingTest -->
+      <class name="com.google.testcases.Google_03_SearchTest">
+        <methods>
+          <include name="checkGoogleSearch"/>
+          <include name="checkSearch"/>
+          <include name="checkLuckybtn"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_SearchTest -->
+      <class name="com.google.testcases.Google_04_MapSignInTest">
+        <methods>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_MapSignInTest -->
+      <class name="com.google.testcases.Google_12_VerifyReadMailTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_12_VerifyReadMailTest -->
+      <class name="com.google.testcases.Google_03_GmailTest">
+        <methods>
+          <include name="checkCreateAccBtn"/>
+          <include name="getTitle"/>
+          <include name="checkSignInBtn"/>
+          <include name="checkGmailImg"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_GmailTest -->
+      <class name="com.google.testcases.Google_04_YoutubeSignInTest">
+        <methods>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_YoutubeSignInTest -->
+      <class name="com.google.testcases.Google_03_NewsTest">
+        <methods>
+          <include name="getTitle"/>
+          <include name="checkGoogleNewsText"/>
+          <include name="CheckGoogleTopNews"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_NewsTest -->
+      <class name="com.google.testcases.Google_04_GmailSignInTest">
+        <methods>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_GmailSignInTest -->
+      <class name="com.google.testcases.Google_03_TranslateTest">
+        <methods>
+          <include name="checkTranslateTxt"/>
+          <include name="checkTitle"/>
+          <include name="checkTranslateBtn"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_TranslateTest -->
+      <class name="com.google.testcases.Google_19_VerifyGmailMovedTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_19_VerifyGmailMovedTest -->
+      <class name="com.google.testcases.Google_04_CalenderSignInTest">
+        <methods>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_CalenderSignInTest -->
+      <class name="com.google.testcases.Google_03_MyAccountTest">
+        <methods>
+          <include name="checkGoogleAccountTxt"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_MyAccountTest -->
+      <class name="com.google.testcases.Google_03_PlayStoreTest">
+        <methods>
+          <include name="getTitle"/>
+          <include name="checkPlayStoreImg"/>
+          <include name="checkPlaySearchBox"/>
+          <include name="checkPlayContent"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_PlayStoreTest -->
+      <class name="com.google.testcases.Google_12_VerifyUnreadTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_12_VerifyUnreadTest -->
+      <class name="com.google.testcases.Google_01_Test">
+        <methods>
+          <include name="CheckGoogleSearch"/>
+          <include name="CheckLuckybtn"/>
+          <include name="checkSearch"/>
+          <include name="CheckSignin"/>
+          <include name="clickGoogle"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_01_Test -->
+      <class name="com.google.testcases.Google_04_DriveSignInTest">
+        <methods>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_DriveSignInTest -->
+      <class name="com.google.testcases.Google_20_VerifyGmailSignOutTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_20_VerifyGmailSignOutTest -->
+      <class name="com.google.testcases.Google_04_AccountSignInTest">
+        <methods>
+          <include name="createAccount"/>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_AccountSignInTest -->
+      <class name="com.google.testcases.Google_08_ProductWebTest">
+        <methods>
+          <include name="checkdocs"/>
+          <include name="checkgooglekeeps"/>
+          <include name="checkImageSearch"/>
+          <include name="checkTranslate"/>
+          <include name="checkgroups"/>
+          <include name="checkadSense"/>
+          <include name="checkdrawings"/>
+          <include name="checkblogger"/>
+          <include name="checkhangouts"/>
+          <include name="checksheets"/>
+          <include name="checkNews"/>
+          <include name="checkmobile"/>
+          <include name="checkyouTube"/>
+          <include name="checkmapsforMobile"/>
+          <include name="checktrends"/>
+          <include name="checkpicasa"/>
+          <include name="checkgmail"/>
+          <include name="checkgoogleAppsForWork"/>
+          <include name="checkBooks"/>
+          <include name="checkforms"/>
+          <include name="checkgooglestore"/>
+          <include name="checkmaps"/>
+          <include name="checkslides"/>
+          <include name="checkgooglecloudprint"/>
+          <include name="checksales"/>
+          <include name="checkscholar"/>
+          <include name="checkBookMarks"/>
+          <include name="checktoolBar"/>
+          <include name="checkadMob"/>
+          <include name="checkgoogleMyBussiness"/>
+          <include name="checkpanorania"/>
+          <include name="checkearth"/>
+          <include name="checkdrive"/>
+          <include name="checkvideoSearch"/>
+          <include name="checkcode"/>
+          <include name="checksearchForMobiles"/>
+          <include name="checkadWords"/>
+          <include name="checkcustomeSearch"/>
+          <include name="checkgoogleChrome"/>
+          <include name="checkGoogleplus"/>
+          <include name="checkCalender"/>
+          <include name="checkwebSearch"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_08_ProductWebTest -->
+      <class name="com.google.testcases.Google04_PlayStoreSignInTest">
+        <methods>
+          <include name="matchAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google04_PlayStoreSignInTest -->
+      <class name="com.google.testcases.Google_15_VerifySearchOperationTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_15_VerifySearchOperationTest -->
+      <class name="com.google.testcases.Google_13_GmailComposeVerifyTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_13_GmailComposeVerifyTest -->
+      <class name="com.google.testcases.Google_03_DriveTest">
+        <methods>
+          <include name="checkDriveIcon"/>
+          <include name="checkGoogleDriveText"/>
+          <include name="getTitle"/>
+          <include name="checkMeetDrive"/>
+          <include name="checkGotoDrive"/>
+          <include name="checkUsingDrive"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_DriveTest -->
+      <class name="com.google.testcases.Google_06_Test">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_06_Test -->
+      <class name="com.google.testcases.Google_09_GmailAccountVerifyTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_09_GmailAccountVerifyTest -->
+      <class name="com.google.testcases.Google_05_HindiTest">
+        <methods>
+          <include name="getHindiSearchTxt"/>
+          <include name="getHindiLuckyDayTxt"/>
+          <include name="getHindiSignInBtnTxt"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_05_HindiTest -->
+      <class name="com.google.testcases.Google_11_VerifyStarMailTest">
+        <methods>
+          <include name="starredemails"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_11_VerifyStarMailTest -->
+      <class name="com.google.testcases.Google_03_GooglePlusTest">
+        <methods>
+          <include name="GooglePlusSearchBox"/>
+          <include name="checkGoogleplustext"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_GooglePlusTest -->
+      <class name="com.google.testcases.Google_03_MapTest">
+        <methods>
+          <include name="checkSerachGoogleMap"/>
+          <include name="checkHorizontal"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_MapTest -->
+      <class name="com.google.testcases.Google_14_VerifyGmailSendTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_14_VerifyGmailSendTest -->
+      <class name="com.google.testcases.Goggle_03_YouTubeTest">
+        <methods>
+          <include name="checkYoutubeSearchbox"/>
+          <include name="checkYoutubeText"/>
+          <include name="compareTitle"/>
+          <include name="checkUploadbtb"/>
+        </methods>
+      </class> <!-- com.google.testcases.Goggle_03_YouTubeTest -->
+      <class name="com.google.testcases.Google_16_GmailAttachmentTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_16_GmailAttachmentTest -->
+      <class name="com.google.testcases.Google_18_VerifyGmailNewLabelTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_18_VerifyGmailNewLabelTest -->
+      <class name="com.google.testcases.Google_03_PhotosTest">
+        <methods>
+          <include name="checkPhotosTxt"/>
+          <include name="getTitle"/>
+          <include name="checkGoToGooglePhotosBtn"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_03_PhotosTest -->
+      <class name="com.google.testcases.Goggle_03_CalenderTest">
+        <methods>
+          <include name="getTitle"/>
+          <include name="execute"/>
+        </methods>
+      </class> <!-- com.google.testcases.Goggle_03_CalenderTest -->
+      <class name="com.google.testcases.Google_10_GmailVerifyTest">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_10_GmailVerifyTest -->
+      <class name="com.google.testcases.Google_07_VerifySearchTest">
+        <methods>
+          <include name="getWikipediaTxt"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_07_VerifySearchTest -->
+      <class name="com.google.testcases.Google_04_NewsSignInTest">
+        <methods>
+          <include name="creatAccount"/>
+        </methods>
+      </class> <!-- com.google.testcases.Google_04_NewsSignInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
